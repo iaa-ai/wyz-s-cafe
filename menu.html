@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>CozyCup Café</title>
+</head>
+
+<body class="menubody">
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="img/cafelogo.png" alt="CozyCup Café Logo">
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero-image-menu">
+        <div class="hero-text">
+          <h1 style="font-size: 75px;">MENU</h1>
+        </div>
+    </section>
+      
+    <script>
+      function openTab(tabName) {
+        var i, x;
+        x = document.getElementsByClassName("containerTab");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        document.getElementById(tabName).style.display = "block";
+      }
+    </script>
+
+    <button class="tablink" onclick="openPage('coffee', this, '#1a1510')">COFFEE</button>
+    <button class="tablink" onclick="openPage('combo', this, '#1a1510')" id="defaultOpen">COMBO</button>
+    <button class="tablink" onclick="openPage('pastries', this, '#1a1510')">PASTRIES</button>
+      
+    <div id="coffee" class="tabcontent">
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                    <img src="img/featuredcoffee.jpg" alt="Denim coffee" style="width:100%">
+                    <h3>Black coffee</h3>
+                    <p class="price">$19.99</p>
+                    <br>
+                    <p>Some text about the coffee..</p>
+                    <p><button>Order now</button></p>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <img src="img/featuredcoffee.jpg" alt="Denim coffee" style="width:100%">
+                    <h3>Black coffee</h3>
+                    <p class="price">$19.99</p>
+                    <br>
+                    <p>Some text about the coffee..</p>
+                    <p><button>Order now</button></p>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <img src="img/featuredcoffee.jpg" alt="Denim coffee" style="width:100%">
+                    <h3>Black coffee</h3>
+                    <p class="price">$19.99</p>
+                    <br>
+                    <p>Some text about the coffee..</p>
+                    <p><button>Order now</button></p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+      
+    <div id="combo" class="tabcontent">
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                    <img src="img/featuredcombo.jpg" alt="Denim coffee" style="width:100%">
+                    <h3>Black coffee</h3>
+                    <p class="price">$19.99</p>
+                    <br>
+                    <p>Some text about the coffee..</p>
+                    <p><button>Order now</button></p>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <img src="img/featuredcombo.jpg" alt="Denim coffee" style="width:100%">
+                    <h3>Black coffee</h3>
+                    <p class="price">$19.99</p>
+                    <br>
+                    <p>Some text about the coffee..</p>
+                    <p><button>Order now</button></p>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <img src="img/featuredcombo.jpg" alt="Denim coffee" style="width:100%">
+                    <h3>Black coffee</h3>
+                    <p class="price">$19.99</p>
+                    <br>
+                    <p>Some text about the coffee..</p>
+                    <p><button>Order now</button></p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+      
+    <div id="pastries" class="tabcontent">
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                    <img src="img/featurepastry.jpg" alt="Denim coffee" style="width:100%">
+                    <h3>Black coffee</h3>
+                    <p class="price">$19.99</p>
+                    <br>
+                    <p>Some text about the coffee..</p>
+                    <p><button>Order now</button></p>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <img src="img/featurepastry.jpg" alt="Denim coffee" style="width:100%">
+                    <h3>Black coffee</h3>
+                    <p class="price">$19.99</p>
+                    <br>
+                    <p>Some text about the coffee..</p>
+                    <p><button>Order now</button></p>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <img src="img/featurepastry.jpg" alt="Denim coffee" style="width:100%">
+                    <h3>Black coffee</h3>
+                    <p class="price">$19.99</p>
+                    <br>
+                    <p>Some text about the coffee..</p>
+                    <p><button>Order now</button></p>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+      
+    <script>
+      function openPage(pageName,elmnt,color) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablink");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].style.backgroundColor = "";
+        }
+        document.getElementById(pageName).style.display = "block";
+        elmnt.style.backgroundColor = color;
+      }
+      
+      // Get the element with id="defaultOpen" and click on it
+      document.getElementById("defaultOpen").click();
+    </script>
+         
+
+         <footer>
+            <div style="padding: 10px;">
+                <a href="index.html" style="font-size: large; color: #fff; text-decoration: none; padding: 10px;">Home</a>
+                <a href="menu.html" style="font-size: large; color: #1a1510; text-decoration: none; padding: 10px;">Menu</a>
+                <a href="about.html" style="font-size: large; color: #fff; text-decoration: none; padding: 10px;">About Us</a>
+                <a href="contact.html" style="font-size: large; color: #fff; text-decoration: none; padding: 10px;">Contact</a>
+            </div>
+            <div style="padding-top: 0px; padding-bottom: 5px;">
+                <a href="https://www.facebook.com/wyzcafe" target="_blank" class="fa fa-facebook"></a>
+                <a href="https://www.twitter.com/wyzcafe" target="_blank" class="fa fa-twitter"></a>
+                <a href="https://www.instagram.com/wyzcafe" target="_blank" class="fa fa-instagram"></a>
+            </div>
+                <p>&copy; 2023 CozyCup Café. All rights reserved.</p>
+            </footer>
+    
+</body>
+</html>
