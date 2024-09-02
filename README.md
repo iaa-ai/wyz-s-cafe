@@ -12,16 +12,16 @@ Wyz's Café is a website for a cozy coffee and pastries café located in the Phi
 
 ## Screen Captures
 
-![Home Page](images/home-page.png)
+![Home Page](img/home.png)
 *The welcoming homepage of Wyz's Café, showcasing the café's tagline and inviting atmosphere.*
 
-![Menu Page](images/menu-page.png)
+![Menu Page](img/menu.png)
 *The menu page displays the variety of coffee and pastries available at Wyz's Café.*
 
-![About Us Page](images/about-us-page.png)
+![About Us Page](img/about.png)
 *Learn more about the history and values of Wyz's Café on the About Us page.*
 
-![Contact Page](images/contact-page.png)
+![Contact Page](img/contact.png)
 *Easy access to contact details, location, and social media links on the Contact page.*
 
 ## About the Authors
