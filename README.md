@@ -31,5 +31,5 @@ Wyz's Café is a website for a cozy coffee and pastries café located in the Phi
 **Name:** Siradz M. Sahiddin
 **Email:** 202280411@psu.palawan.edu.ph
 
-[![Facebook](https://raw.githubusercontent.com/gauravghongde/social-icons/master/SVG/Color/Facebook.svg)](https://facebook.com/yourprofile)  
-[![GitHub](https://raw.githubusercontent.com/gauravghongde/social-icons/master/SVG/Color/Github.svg)](https://github.com/yourusername)
+[![Facebook](https://raw.githubusercontent.com/gauravghongde/social-icons/master/SVG/Color/Facebook.svg)](https://www.facebook.com/profile.php?id=61562902033751)  
+[![GitHub](https://raw.githubusercontent.com/gauravghongde/social-icons/master/SVG/Color/Github.svg)](https://github.com/iaa-ai)
